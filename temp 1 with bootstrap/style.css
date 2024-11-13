@@ -1,0 +1,102 @@
+/* Custom text color for primary */
+body {
+  background-color: #fff;
+}
+
+body .text-primary {
+  color: #ffff !important;
+}
+
+/* Custom background color for primary */
+body .bg-primary {
+  background-color: #52be79 !important;
+}
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0)
+    ),
+    url("https://images.unsplash.com/photo-1533226962850-70dfb73c46d1?q=80&w=1433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      center/cover no-repeat;
+
+  /* align-items: flex-end; */
+  /* justify-content: flex-start; */
+}
+.image {
+  height: 35vh;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0)
+    ),
+    url("https://images.unsplash.com/photo-1533226962850-70dfb73c46d1?q=80&w=1433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      center/cover no-repeat;
+}
+
+.image1 {
+  width: 27vw;
+  
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0)
+    ),
+    url("https://images.unsplash.com/photo-1533226962850-70dfb73c46d1?q=80&w=1433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    center/cover no-repeat;
+  background-color: #eaeaea; /* Temporary color to check if class is applied */
+}
+
+
+/* 
+.icons {
+  border: 0.5px solid #6b6b6b;
+  position: absolute;
+  top: -12%;
+  left: 40%;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+} */
+
+.card {
+  border-radius: 15px;
+}
+
+.icon-container {
+  border: 0.5px solid #6b6b6b;
+  position: absolute;
+  top: -12%;
+  left: 40%;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icolor {
+  color: yellow;
+}
+
+
+.clasimg1 {
+  background-image: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");  
+
+  background-size: cover;
+  background-position: center;  
+
+  height: 350px;
+  
+  /* Add any additional styles as needed */
+}
+.bord {
+  border: 1px solid #fff;
+  padding: 8px;
+
+}
